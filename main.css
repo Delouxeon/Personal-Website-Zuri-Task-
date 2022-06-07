@@ -29,7 +29,7 @@ nav{
     padding:0.5em;
     border: 1px solid rgb(252, 216, 151);
     border-radius: 40px;
-    width: 60%;
+    width: 50%;
     cursor: pointer;
 }
 nav:hover{
@@ -43,7 +43,7 @@ nav ul{
     padding: 0;
 }
 nav li{
-    font-size: 0.62em;
+    font-size: 0.65em;
     padding-right: 0.5em;
 }
 nav a{
@@ -77,6 +77,8 @@ figure{
     align-items: center;
     padding-top: 1em;
     padding-bottom: 5em;
+    padding-left: 2em;
+    padding-right: 2em;
     /* border: 1px solid azure; */
     /* align-self: start; */
 }
@@ -157,8 +159,6 @@ button:hover{
 }
 .imgcontainer{
     /* border: 1px solid green; */
-    padding-left: 2em;
-    padding-right: 2em;
     height: 80vw;
     width: 80vw;
     border-radius: 10px;
