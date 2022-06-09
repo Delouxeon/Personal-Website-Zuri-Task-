@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registration.css">
+    <title>Nwabuife Divine | Registration Page</title>
+</head>
+
+<body>
+    <header>
+        <h1>Registration Page</h1>
+        <h2 id="size"></h2>
+    </header>
+    
+    <main>
+        <form action="" autocomplete="on">
+            <div class="inputdiv">
+                <label for="fname">First Name</label>
+                <br>
+                <input pattern="[A-Za-z'-]+" title="Name can only contain letters, apostrophes and hyphens" type="text" id="fname" name="fname" required>
+            </div>
+        
+            <div class="inputdiv">
+                <label for="lname">Last Name</label>
+                <br>
+                <input pattern="[A-Za-z'-]+" title="Name can only contain letters, apostrophes and hyphens" type="text" id="lname" name="lname" required>
+            </div>
+        
+            <div class="inputdiv">
+                <label for="phone">Phone number</label>
+                <br>
+                <input pattern="[0-9]+" title="Phone number should contain only digits" type="tel" id="phone" name="phone" required>
+            </div>
+        
+            <div class="inputdiv">
+                <label for="gender">Gender</label>
+                <br>
+                <select name="gender" id="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+        
+            <div class="inputdiv">
+                <label for="country">Country</label>
+                <br>
+                <input pattern="[A-Za-z'-]+" title="Enter your country name" type="text" id="country" name="country" required>
+            </div>
+        
+            <div class="inputdiv">
+                <label for="stateProvince">State/Province</label>
+                <br>
+                <input pattern="[A-Za-z'-]+" title="Enter your state/province name" type="text" id="stateProvince" name="stateProvince" required>
+            </div>
+        
+            <div class="inputdiv">
+                <label for="email">Email</label>
+                <br>
+                <input type="email" id="email" name="email" required>
+            </div>
+        
+            <div class="inputdiv">
+                <label for="password">Password</label>
+                <br>
+                <input minlength="8" title="password should contain a minimum of 8 characters" type="password" id="password" name="password" required autocomplete="off">
+            </div>
+        
+            <div id="span" class="inputdiv">
+                <label for="Confirmpassword">Confirm Password</label>
+                <br>
+                <input type="password" id="Confirmpassword" name="Confirmpassword" required autocomplete="off">
+            </div>
+        
+            <div id="submitdiv" class="inputdiv">
+                <input type="submit" value="Register" id="register" name="register">
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <nav>
+            <ul class="pagelist">
+                <li class="page"><a target="_blank" class="pagelink" href="./index.html">About Me</a></li>
+                <li class="page"><a target="_blank" class="pagelink" href="./contact.html">Contact</a></li>
+                <li class="page"><a id="currentpage" target="_blank" class="pagelink" href="./registration.html">Registeration</a></li>
+                <li class="page"><a target="_blank" href="./login.html">Login</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+<!-- <script src="/script.js"></script> -->
+
+</html>
