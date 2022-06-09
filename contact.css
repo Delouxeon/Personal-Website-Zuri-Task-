@@ -1,20 +1,18 @@
-
+/***Basic Settings For Browser***/
 *{
     box-sizing: border-box;
     margin:0;
     font-family:Tahoma;
 }
+
+/***Setting Background Colour For Body***/
 body{
     background-color: rgb(18, 3, 61);
-    /* height: 100%;
-    background-image: url("/website\ background\ 2.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center; */
 }
+
+/*** HEADER STYLING ***/
 header{
     height: 15vh;
-    /* border: 1px solid aliceblue; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,15 +23,16 @@ header h1{
     color: rgb(252, 216, 151);
 }
 
-
+/*** MAIN STYLING ***/
 main{
     height: 70vh;
     padding: 2em;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 1px solid aliceblue; */
 }
+
+/**Form Styling**/
 form {
     background-color: rgb(203, 205, 207);
     height: 60%;
@@ -98,7 +97,15 @@ textarea{
 }
 
 
+/*** FOOTER STYLING ***/
+footer {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+/**Navigation bar Styling**/
 nav {
     width: 80%;
     cursor: pointer;
@@ -126,21 +133,16 @@ nav a:hover {
     opacity: 0.95
 }
 
+/*giving the current page in the nav bar a unique feature*/
 #currentpage {
     opacity: 1;
     color: rgb(252, 216, 151);
     border-bottom: 1px solid rgb(252, 216, 151);
 }
 
-footer {
-    height: 15vh;
-    /* border: 1px solid aliceblue; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 
+/***MEDIA QUERIES***/
 @media (min-width:481px) {
     form{
          height: 100%;
