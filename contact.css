@@ -1,4 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap'); */
 
 *{
     box-sizing: border-box;
@@ -46,13 +45,13 @@ form {
     align-items:center;
     padding: 20px;
     border-radius: 10px;
+    font-size: 0.9em;
 }
 
 input {
     width: 75%;
     height: 30px;
     font-size: 100%;
-    text-align: center;
     color: rgb(18, 3, 61);
     border: none;
     border-radius: 2px;
@@ -74,7 +73,6 @@ textarea{
 }
 .inputdiv{
     width: 100%;
-    text-align: center;
 }
 
 .inputdiv label{
