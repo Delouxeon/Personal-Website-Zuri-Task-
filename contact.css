@@ -50,7 +50,7 @@ form {
 
 input {
     width: 75%;
-    height: 45px;
+    height: 30px;
     font-size: 100%;
     text-align: center;
     color: rgb(18, 3, 61);
@@ -147,7 +147,11 @@ footer {
     form{
          height: 100%;
          width: 100%;
-         font-size: 1.5em;
+         font-size: 1.2em;
+    }
+    
+    input{
+        height: 35px;
     }
 
     nav {
