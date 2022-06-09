@@ -46,7 +46,7 @@ form {
     width:100%;
     max-width: 700px;
     display: grid;
-    padding: 30px;
+    padding: 10px 30px;
     justify-content: center;
     align-items: center;
 }
