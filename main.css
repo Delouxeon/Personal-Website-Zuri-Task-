@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
 *{
     margin: 0;
     box-sizing: border-box;
@@ -144,6 +144,7 @@ button{
     font-weight:500;
     color: white;
     border:none;
+    border-radius: 2px
     cursor: pointer;
 }
 button:hover{
