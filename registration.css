@@ -1,17 +1,18 @@
+/***BASIC SETTINGS FOR BROWSER***/
 * {
     margin: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/***Setting Background Colour For Body***/
 body{
     background-color: rgb(18, 3, 61);
     
 }
-
+/*** HEADER STYLING ***/
 header {
     height: 15vh;
-    /* border: 1px solid aliceblue; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,14 +24,9 @@ header h1 {
     color: rgb(252, 216, 151);
 }
 
-footer {
-    height: 15vh;
-    /* border: 1px solid aliceblue; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
+
+/*** MAIN STYLING ***/
 main {
     height: 70vh;
     padding: 2em;
@@ -39,6 +35,7 @@ main {
     align-items: center;
 }
 
+/**Form Styling**/
 form {
     background-color: rgb(203, 205, 207);
     height: 70%;
@@ -49,6 +46,7 @@ form {
     padding: 10px 30px;
     grid-template-columns: 50% 50%;
     column-gap: 20px;
+    border-radius: 10px;
     justify-content: center;
     align-items: center;
     font-size:0.9em;
@@ -97,6 +95,16 @@ input:focus, select:focus {
     background-color: rgb(18, 3, 61);
 }
 
+
+/*** FOOTER STYLING ***/
+footer {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/**Navigation bar Styling**/
 nav {
     width: 80%;
     cursor: pointer;
@@ -124,6 +132,7 @@ nav a:hover {
     opacity: 0.95
 }
 
+/*giving the current page in the nav bar a unique feature*/
 #currentpage {
     opacity: 1;
     color: rgb(252, 216, 151);
@@ -131,6 +140,7 @@ nav a:hover {
 }
 
 
+/***MEDIA QUERIES***/
 @media (min-width:481px) {
 
     nav {
