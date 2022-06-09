@@ -13,7 +13,6 @@ body{
 /*** HEADER STYLING ***/
 header {
     height: 15vh;
-    /* border: 1px solid aliceblue; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,12 +31,10 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 1px solid aliceblue; */
 }
 
 /**Form Styling**/
 form {
-    /* border:1px solid yellow;  */
     background-color: rgb(203, 205, 207);
     height:60%;;
     max-height: 500px;
@@ -46,6 +43,8 @@ form {
     display: grid;
     padding: 40px;
     border-radius: 10px;
+    font-size: 0.9em;
+
 
 }
 form h3{
@@ -70,8 +69,6 @@ form h3{
 
 .inputdiv{
     width: 100%;
-    /* border: 1px solid red; */
-
 }
 
 input {
@@ -94,7 +91,6 @@ input:focus {
 /*** FOOTER STYLING ***/
 footer {
     height: 15vh;
-    /* border: 1px solid aliceblue; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,7 +102,6 @@ nav {
     cursor: pointer;
     display: flex;
     justify-content: center;
-    /* border: 1px solid azure; */
 }
 
 nav ul {
@@ -114,7 +109,6 @@ nav ul {
     justify-content: space-evenly;
     list-style: none;
     width: 100%;
-    /* border: 1px solid azure; */
     padding: 0;
 }
 
