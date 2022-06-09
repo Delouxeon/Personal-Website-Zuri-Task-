@@ -41,14 +41,17 @@ main {
 
 form {
     background-color: rgb(203, 205, 207);
-    height: 100%;
+    height: 60%;
     max-height:600px;
     width:100%;
     max-width: 700px;
     display: grid;
     padding: 10px 30px;
+    grid-template-columns: 50% 50%;
+    column-gap: 20px;
     justify-content: center;
     align-items: center;
+    font-size:0.9em;
 }
 
 input {
@@ -70,8 +73,17 @@ input:focus, select:focus {
     border: 2px solid rgb(27, 3, 94);
 }
 
- #submitdiv {
+#spaninput{
+    grid-column: 1/-1;
+    justify-self: center;
+    text-align: center;
+    width: 50%;
+}
+
+#submitdiv {
     padding-top: 15px;
+    grid-column: 1/-1;
+    
 }  
 
 #register {
@@ -133,8 +145,17 @@ nav a:hover {
         font-size: 0.9rem;
     }
 
+     #spaninput {
+        grid-column: 1/1;
+        justify-self: stretch;
+        width: 100%;
+        text-align:left;
+    }
+
     #submitdiv {
          padding-top: 25px;
+         grid-column: 2/3;
+
     }
 
     input, select{
@@ -143,6 +164,7 @@ nav a:hover {
 
     form {
         grid-template-columns: 1fr 1fr;
+        height: 100%;
         column-gap: 30px;
         font-size: 1.2em
     }
