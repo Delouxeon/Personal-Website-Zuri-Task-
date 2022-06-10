@@ -72,6 +72,7 @@ textarea{
 }
 .inputdiv{
     width: 100%;
+    text-align: center;
 }
 
 .inputdiv label{
